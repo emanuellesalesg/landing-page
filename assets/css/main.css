@@ -1,0 +1,187 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.main_page{
+    display: flex;
+    flex-direction: row;
+}
+
+.main_page figure img{
+    width: 800px;
+    margin: 0;
+}
+
+.aside_prices{
+    margin-top: -6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside_prices .order_now{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.aside_prices .order_now button{
+    padding: 12px;
+    background-color: rgba(65, 245, 65, 0.863);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.container_plans{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.container_plans .basic h1{
+    margin-top: 10px;
+    color: whitesmoke;
+    font-size: 32px;
+    background-color: skyblue;
+    border-radius: 4px 0 0 4px;
+  
+}
+.container_plans .basic p{
+    color: darkslategray;
+    font-size: 22px;
+  
+}
+.container_plans .classic h1{
+    margin-top: 10px;
+    color: whitesmoke;
+    background-color: #D5521C;
+    
+}
+.container_plans .classic p{
+    color: darkslategray;
+    font-size: 22px;
+}
+.container_plans .gold h1{
+    background-color: goldenrod;
+    margin-top: 10px;
+    color: whitesmoke;
+    border-radius: 0 4px 4px 0;
+
+}
+.container_plans .gold p{
+    color: darkslategray;
+    font-size: 22px;
+   
+}
+
+.classic, .basic, .gold{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: whitesmoke;
+    margin-top: -8px;
+}
+
+.basic{
+    border: solid 1px skyblue;
+}
+.classic{
+    border: solid 1px #D5521C;
+}
+.gold{
+    border: solid 1px goldenrod;
+}
+
+.classic p, .basic p, .gold p{
+    margin-top: 15px;
+}
+
+.container_plans .description p{
+    font-size: 10px;
+    margin: 10px;
+}
+
+.basic .button_plan button{
+    width: 100%;
+    padding: 8px;
+    background-color: skyblue;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.classic .button_plan button{
+    width: 100%;
+    padding: 8px;
+    background-color: #D5521C;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.gold .button_plan button{
+    width: 100%;
+    padding: 8px;
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55%;
+}
+
+.info_main{
+    font-size: 22px;
+}
+.info_main span{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    color: #D5521C;
+    padding: 2px 6px;
+}
+
+.title_main{
+    font-size: 42px;
+}
+
+.button_main{
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+    color: #D5521C;
+    font-weight: bold;
+    margin-top: 5px;
+    border-radius: 7px;
+    line-height: 15px;
+}
+
+.main_page div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+
+
